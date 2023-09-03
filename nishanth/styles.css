@@ -1,0 +1,208 @@
+/* Reset some default styles */
+/* Reset some default styles */
+/* Reset some default styles */
+/* Style the header */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Relative positioning for profile image container */
+    background-image: url('imagg.jpeg'); /* Add your background image here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img1.jpg'); /* Replace with your image filename or URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Style the header */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Relative positioning for profile image container */
+}
+
+/* Profile image container */
+.profile-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Profile image */
+.profile-image {
+    max-width: 150px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1; /* Place the image above the background */
+}
+
+/* Profile image background */
+.profile-image-background {
+    background-image: url('image.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    z-index: 0; /* Place the background behind the image */
+}
+
+/* Title */
+.title {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+/* Rest of your CSS styles here */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img1.jpg'); /* Replace with your image filename or URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Style the header */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Relative positioning for profile image container */
+}
+
+/* Profile image container */
+.profile-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Profile image */
+.profile-image {
+    max-width: 150px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1; /* Place the image above the background */
+}
+
+/* Profile image background */
+.profile-image-background {
+    background-image: url('image.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    z-index: 0; /* Place the background behind the image */
+}
+
+/* Title */
+.title {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+/* Rest of your CSS styles here */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img1.jpg'); /* Replace with your image filename or URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Style the header */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Profile image */
+.profile-image {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+/* Title */
+.title {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+/* Style sections */
+.section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Style headings */
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Style links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style lists */
+ul, ol {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* Add some spacing between sections */
+.section + .section {
+    margin-top: 40px;
+}
+
+/* Style the profile section (About Me) with a background image */
+#about {
+    background-image: url('profile-background.jpg'); /* Replace with your profile section background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff; /* Text color for better visibility */
+    padding: 40px; /* Add more padding for better aesthetics */
+}
